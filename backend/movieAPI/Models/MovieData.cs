@@ -9,7 +9,6 @@ namespace movieAPI.Data
     public class MovieData
     {
         [Key]
-        [Required]
         public int MovieId { get; set; }
 
         public string Category { get; set; }
