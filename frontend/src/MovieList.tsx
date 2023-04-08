@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import axios from 'axios';
 import { Movie } from './movie';
 import { Link } from 'react-router-dom';
 
@@ -7,9 +6,9 @@ function MovieList() {
   const [movies, setMovies] = useState<Movie[]>([]);
 
   useEffect(() => {
-    axios
-      .get<Movie[]>('https://localhost:4000/Movie')
-      .then((response) => setMovies(response.data))
+    fetch('https://localhost:4000/movie')
+      .then((response) => response.json())
+      .then((data) => setMovies(data))
       .catch((error) => console.error(error));
   }, []);
 

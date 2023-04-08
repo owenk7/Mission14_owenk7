@@ -75,6 +75,23 @@ function Podcasts() {
   );
 }
 
+// routes to each of the pages
+function App() {
+  return (
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/about" element={<Podcasts />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/movielist" element={<MovieList />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
+
 // Assignment 13 Movie List
 // Movie list page with custom syles
 // function MovieList() {
@@ -129,23 +146,6 @@ function Podcasts() {
 //     </div>
 //   );
 // }
-
-// routes to each of the pages
-function App() {
-  return (
-    <Router>
-      <div>
-        <Routes>
-          <Route path="/about" element={<Podcasts />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/movielist" element={<MovieList />} />
-        </Routes>
-      </div>
-    </Router>
-  );
-}
-
-export default App;
 
 // notes from videos just to have them all in the same place.
 // // go button function from videos

@@ -3,7 +3,7 @@ export type Movie = {
   category: string;
   title: string;
   year: number;
-  director: boolean;
+  director: string;
   rating: string;
   edited: string;
   lentTo: string;

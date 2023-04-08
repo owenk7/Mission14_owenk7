@@ -18,7 +18,7 @@ namespace movieAPI.Data
 
         public int Year { get; set; }
 
-        public bool Director { get; set; }
+        public string Director { get; set; }
 
         public string Rating { get; set; }
 

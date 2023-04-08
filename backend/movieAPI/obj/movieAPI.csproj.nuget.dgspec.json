@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission13.1_owenk7\\backend\\movieAPI\\movieAPI.csproj": {}
+    "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission14_owenk7\\backend\\movieAPI\\movieAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission13.1_owenk7\\backend\\movieAPI\\movieAPI.csproj": {
+    "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission14_owenk7\\backend\\movieAPI\\movieAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission13.1_owenk7\\backend\\movieAPI\\movieAPI.csproj",
+        "projectUniqueName": "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission14_owenk7\\backend\\movieAPI\\movieAPI.csproj",
         "projectName": "movieAPI",
-        "projectPath": "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission13.1_owenk7\\backend\\movieAPI\\movieAPI.csproj",
+        "projectPath": "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission14_owenk7\\backend\\movieAPI\\movieAPI.csproj",
         "packagesPath": "C:\\Users\\kimba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission13.1_owenk7\\backend\\movieAPI\\obj\\",
+        "outputPath": "C:\\Users\\kimba\\OneDrive\\Desktop\\Mission14_owenk7\\backend\\movieAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimba\\AppData\\Roaming\\NuGet\\NuGet.Config",
